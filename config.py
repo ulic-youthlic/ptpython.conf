@@ -5,6 +5,7 @@ Copy this file to $XDG_CONFIG_HOME/ptpython/config.py
 On Linux, this is: ~/.config/ptpython/config.py
 On macOS, this is: ~/Library/Application Support/ptpython/config.py
 """
+
 from prompt_toolkit.filters import ViInsertMode
 from prompt_toolkit.key_binding.key_processor import KeyPress
 from prompt_toolkit.keys import Keys
@@ -114,7 +115,7 @@ def configure(repl):
     # color schemes. See:
     # https://pygments.org/docs/styles/
     # https://pygments.org/demo/
-    repl.use_code_colorscheme("native")
+    repl.use_code_colorscheme("github-dark")
     # A colorscheme that looks good on dark backgrounds is 'native':
     # repl.use_code_colorscheme("native")
 
